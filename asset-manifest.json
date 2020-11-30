@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/paosarmi/BOG001-burger-queen.git/static/css/main.842c8413.chunk.css",
+    "main.js": "/paosarmi/BOG001-burger-queen.git/static/js/main.8ac66690.chunk.js",
+    "main.js.map": "/paosarmi/BOG001-burger-queen.git/static/js/main.8ac66690.chunk.js.map",
+    "runtime-main.js": "/paosarmi/BOG001-burger-queen.git/static/js/runtime-main.720c54d8.js",
+    "runtime-main.js.map": "/paosarmi/BOG001-burger-queen.git/static/js/runtime-main.720c54d8.js.map",
+    "static/js/2.115edd51.chunk.js": "/paosarmi/BOG001-burger-queen.git/static/js/2.115edd51.chunk.js",
+    "static/js/2.115edd51.chunk.js.map": "/paosarmi/BOG001-burger-queen.git/static/js/2.115edd51.chunk.js.map",
+    "index.html": "/paosarmi/BOG001-burger-queen.git/index.html",
+    "precache-manifest.a153534b220cdf6d8ddbec57fdcc282c.js": "/paosarmi/BOG001-burger-queen.git/precache-manifest.a153534b220cdf6d8ddbec57fdcc282c.js",
+    "service-worker.js": "/paosarmi/BOG001-burger-queen.git/service-worker.js",
+    "static/css/main.842c8413.chunk.css.map": "/paosarmi/BOG001-burger-queen.git/static/css/main.842c8413.chunk.css.map",
+    "static/js/2.115edd51.chunk.js.LICENSE.txt": "/paosarmi/BOG001-burger-queen.git/static/js/2.115edd51.chunk.js.LICENSE.txt",
+    "static/media/ListChef.scss": "/paosarmi/BOG001-burger-queen.git/static/media/Botonchef.3f3eccd3.png",
+    "static/media/Hamburguesita.png": "/paosarmi/BOG001-burger-queen.git/static/media/Hamburguesita.aee3089a.png",
+    "static/media/ListWaiter.scss": "/paosarmi/BOG001-burger-queen.git/static/media/button.3f3eccd3.png",
+    "static/media/MenuQueenBreakfast.scss": "/paosarmi/BOG001-burger-queen.git/static/media/buttonMenu.03b2e20b.png",
+    "static/media/Chef.scss": "/paosarmi/BOG001-burger-queen.git/static/media/fondococina.e547d9be.png",
+    "static/media/madero.png": "/paosarmi/BOG001-burger-queen.git/static/media/madero.28e7d5f3.png",
+    "static/media/Waiter.scss": "/paosarmi/BOG001-burger-queen.git/static/media/restaurante.b1e4e857.png",
+    "static/media/state.png": "/paosarmi/BOG001-burger-queen.git/static/media/state.c7d0ccad.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.720c54d8.js",
+    "static/js/2.115edd51.chunk.js",
+    "static/css/main.842c8413.chunk.css",
+    "static/js/main.8ac66690.chunk.js"
+  ]
+}
