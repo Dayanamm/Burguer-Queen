@@ -1,0 +1,14 @@
+.ItemTableContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Product {
+  width: 140px;
+}
+
+.Button-trash {
+  background-color: transparent;
+  border: none;
+}

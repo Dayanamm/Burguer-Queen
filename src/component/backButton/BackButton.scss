@@ -1,0 +1,21 @@
+$font-family: "Love Ya Like A Sister", cursive;
+$waiter-background: #f6ab52;
+$chef-background: #eb5a44;
+$font-color: #2b1207;
+
+.Back-button {
+  width: 132px;
+  height: 49px;
+  border-radius: 15px;
+  background-color: $waiter-background;
+  border: 2px solid #201e28;
+  font-family: $font-family;
+  font-size: 28px;
+}
+
+.Back-button-container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  margin-left: 10px;
+}

@@ -1,0 +1,31 @@
+$ChefOptionButton: url(./Botonchef.png);
+$tableHeigth: 80px;
+$tableWidth: 360px;
+$marginTable: 80px;
+$font-family: "Love Ya Like A Sister", cursive;
+$font-color: rgb(250, 250, 237);
+$font-size: 30px;
+$border: 51px;
+
+.Chef-name {
+  display: flex;
+  background-image: $ChefOptionButton;
+  width: $tableWidth;
+  height: $tableHeigth;
+  border-radius: $border;
+  border: none;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: $font-size;
+  font-family: $font-family;
+  color: $font-color;
+}
+
+.PersonChef {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1024px;
+  height: 768px;
+}

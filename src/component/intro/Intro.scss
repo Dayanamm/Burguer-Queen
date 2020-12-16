@@ -1,0 +1,74 @@
+$background: rgba(9, 5, 30, 0.863);
+$burguer: 269px;
+$waiter-background: #f6ab52;
+$chef-background: #eb5a44;
+$font-family: "Love Ya Like A Sister", cursive;
+$font-color: #2b1207;
+$font-size: 40px;
+
+.Intro-body {
+  width: 1024px;
+  height: 768px;
+  background: $background;
+  display: flex;
+  font-family: $font-family;
+  overflow: hidden;
+}
+
+.Intro-options {
+  width: 1024px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Burguer-logo {
+  width: $burguer;
+}
+
+.Waiter {
+  background: $waiter-background;
+  border: none;
+  border-radius: 0% 100% 100% 0% / 57% 50% 50% 40%;
+  width: 329px;
+  height: 658px;
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $font-color;
+  animation-name: fadeIn;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.Chef {
+  background: $chef-background;
+  border: none;
+  border-radius: 100% 0% 0% 100% / 51% 50% 50% 49%;
+  width: 329px;
+  height: 658px;
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $font-color;
+  animation-name: fadeIn;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+// nombre de los keyframes, duración, timing, Delay

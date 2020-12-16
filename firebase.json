@@ -9,7 +9,8 @@
     ]
   },
   "hosting": {
-    "public": "build",
+    "site": "burguer-queen-wood",
+    "public": "public", 
     "ignore": [
       "firebase.json",
       "**/.*",

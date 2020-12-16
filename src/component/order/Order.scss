@@ -1,0 +1,42 @@
+$font-family: "Love Ya Like A Sister", cursive;
+$button-color: #f6ab52;
+
+.OptionMenu {
+  background-color: $button-color;
+  font-family: $font-family;
+  width: 270px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 30px;
+  border: 3px solid $button-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu-buttons {
+  display: flex;
+  width: 620px;
+  height: 488px;
+  margin: 174px 0 114px 53px;
+  flex-direction: column;
+}
+
+.Buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px;
+}
+
+.Total-order {
+  display: flex;
+  height: 768px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Prueba {
+  margin: 25px;
+}

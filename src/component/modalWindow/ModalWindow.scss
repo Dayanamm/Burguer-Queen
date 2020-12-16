@@ -1,0 +1,111 @@
+$background: rgba(9, 5, 30, 0.83);
+$burguer: 269px;
+$color-font-border: #f6ab52;
+$font-family: "Love Ya Like A Sister", cursive;
+$font-color: #fffaed;
+$font-size-s: 20px;
+$font-size-m: 25px;
+$font-color-button: #2b1207;
+
+.Window-container {
+  width: 1027px;
+  height: 768px;
+  background: rgba(196, 196, 196, 0.79);
+  margin-left: -1033px;
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.AllspaceModalContainer {
+  display: flex;
+  width: 557px;
+  height: 400px;
+  justify-content: center;
+  flex-direction: column;
+  border: solid 2px $color-font-border;
+  background-color: $background;
+  border-radius: 50px;
+  align-items: center;
+  color: $font-color;
+  font-size: 24px;
+}
+
+.Modal-container {
+  width: 500px;
+  overflow: scroll;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Waiter-name-modal {
+  display: flex;
+}
+
+.Waiter-name-modal p {
+  margin-left: -205px;
+  font-size: 20px;
+}
+
+.Client {
+  display: flex;
+  flex-direction: row;
+  margin-top: -20px;
+}
+
+.Client p {
+  color: $color-font-border;
+}
+
+.Name-client {
+  background-color: transparent;
+  border-bottom: 1px solid $color-font-border;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: $font-color;
+  font-family: $font-family;
+  height: 20px;
+  width: 190px;
+  margin-left: 15px;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.Order {
+  color: $color-font-border;
+  margin-top: -35px;
+  font-size: 22px;
+}
+
+.Order-detail-modal {
+  overflow: scroll;
+  font-size: 20px;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.Buttons-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px;
+  margin-bottom: 15px;
+}
+
+.Buttons-containers button {
+  background-color: $color-font-border;
+  border: 1px solid $color-font-border;
+  border-radius: 50px;
+  width: 168px;
+  height: 53px;
+  font-size: 22px;
+  color: $font-color-button;
+  font-family: $font-family;
+}

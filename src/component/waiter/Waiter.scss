@@ -1,0 +1,14 @@
+$background: url(./restaurante.png);
+
+.Waiters {
+  background-image: $background;
+}
+.PersonWaiter {
+  display: flex;
+  margin-top: 211px;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: center;
+  font-size: 45px;
+}
